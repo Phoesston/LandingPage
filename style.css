@@ -11,7 +11,6 @@ body{
 .header{
     position: relative;
     display: flex;
-    flex-direction: start;
     justify-content: space-between;
     align-items:center;
 }
@@ -30,17 +29,41 @@ nav ul{
     padding: 5px;
 }
 
-.header .content{
-    flex-wrap: wrap;
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
 .main-text{
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    margin-bottom: 0;
+    
 }
 
 .main-subtext{
     color: #f9faf8;
+    padding-right: 5em;
+    margin-top: 0;
+}
+
+button{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 6px;
+    width: 6em;
+    height: 2em;
+    border: 0;
+}
+
+img{
+    padding-top: 3em;
+    padding-right: 5px;
+    max-width: auto;
+    max-height: 400px;
+    
 }
 
