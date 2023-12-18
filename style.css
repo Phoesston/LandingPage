@@ -20,7 +20,7 @@ body{
     font-size: 24px;
 } 
 
-nav ul{
+ul{
     list-style-type: none;
 }
 
@@ -51,19 +51,111 @@ nav ul{
 }
 
 button{
+    border-radius: 6px;
     background-color: #3882f6;
     color: #e5e7eb;
-    border-radius: 6px;
     width: 6em;
     height: 2em;
+}
+
+.content .Sign{
     border: 0;
 }
 
-img{
+ .content .right-content img{
     padding-top: 3em;
     padding-right: 5px;
-    max-width: auto;
-    max-height: 400px;
+    width: 500px;
+    height: 300px;
     
 }
+
+.Middle{
+    padding-bottom: 5em;
+}
+
+.Middle header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
+
+}
+
+
+.Middle .content{
+    justify-content: center;
+
+}
+
+.Middle .content li{
+    display: flex;
+}
+
+.Middle .content .info{
+    text-align: center;
+    width: 200px;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.Middle .content img{
+    width: 200px;
+    height: 130px;
+    border-radius: 30px;
+}
+
+.Qoute{
+    background-color: #e5e7eb;
+    padding: 50px;
+    font-size: 36px;
+    display: block;
+}
+
+.Qoute blockquote{
+    padding: 150px;
+}
+
+
+.Qoute .author{
+    float: right;
+}
+
+.CallOfAction{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;
+    margin: 100px;
+    border-radius: 7px;
+    justify-content: space-evenly
+}
+
+.CallOfAction .Cmain{
+    margin-bottom: 0px;
+}
+
+.CallOfAction .Csub{
+    margin-top: 0px;
+}
+
+.CallOfAction .right{
+  display: flex;
+  align-items: center;
+    
+}
+
+
+.CallOfAction .right button{
+    border-color: #e5e7eb;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+}
+
+
 
